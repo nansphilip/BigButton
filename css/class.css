@@ -93,6 +93,10 @@
     background-color: #363636;
 }
 
+.space {
+    margin: 2rem;
+}
+
 .above,
 .under {
     transition: 300ms;
