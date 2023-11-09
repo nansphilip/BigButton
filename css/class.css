@@ -1,15 +1,22 @@
 .flex {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .background {
-    height: 60vh;
+    height: 50vh;
     width: 100%;
 
     background: linear-gradient(to top, rgb(216, 216, 216), rgb(245, 245, 245) 5%, white);
+}
+
+.bottom {
+    height: 50vh;
+    width: 100%;
+
+    background: linear-gradient(160deg, aliceblue, white, lightgray);
 }
 
 @keyframes booming {
@@ -21,7 +28,7 @@
         opacity: 1;
     }
     80% {
-        font-size: 5rem;
+        font-size: 14vmin;
         opacity: 1;
     }
     100% {
@@ -38,21 +45,13 @@
 
 .dont {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 6vmin;
     color: tomato;
     /* text-decoration: ; */
 }
 
 .boom {
-    animation: 2s forwards ease-out booming;
-}
-
-.bottom {
-    height: 40vh;
-    width: 100%;
-
-    margin: 0;
-    background: linear-gradient(160deg, aliceblue, white, lightgray);
+    animation: 1s forwards ease-out booming;
 }
 
 .above {
