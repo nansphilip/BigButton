@@ -56,11 +56,12 @@
 
 .above {
     height: 10rem;
-    width: 10rem;
+    width: 12rem;
 
     color: white;
-    font-size: 6rem;
+    font-size: 3rem;
     text-shadow: #191919 -2px 3px 5px;
+    text-align: center;
     
     position: relative;
     z-index: 1;
@@ -77,11 +78,7 @@
 
 .under {
     height: 30px;
-    width: 154.5px;
-    
-    color: white;
-    font-size: 6rem;
-    text-shadow: #363636 -2px 0px 5px;
+    width: 186px;
     
     position: relative;
     z-index: 0;

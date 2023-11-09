@@ -24,8 +24,8 @@ above.addEventListener('touchend', release)
 
 function hold() {
     above.style.top = '10px';
-    under.style.height = '20px';
-    under.style.top = '-5px';
+    under.style.height = '18px';
+    under.style.top = '-4px';
     
     text.innerHTML = "Don't release the button!"
     text.classList.add('dont');
