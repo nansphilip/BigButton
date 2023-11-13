@@ -38,6 +38,8 @@
 }
 
 .text {
+    user-select: none;
+
     font-weight: 700;
     font-size: 0rem;
     color: black;
@@ -55,6 +57,8 @@
 }
 
 .above {
+    user-select: none;
+
     height: 10rem;
     width: 12rem;
 
